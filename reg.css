@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e1e8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #bccbfe;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration-line: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+}
+
+.login-btn {
+    display: inline-block;
+    text-decoration-line: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: #000;
+    margin-left: 20px;
+}
+
+main {
+    padding: 50px;
+}
+
+.reg-form-container {
+    background-color: #3a36ff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    margin: 0 37.5%;
+    color: white;
+}
+
+.reg-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reg-form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 6px 0;
+    font-size: 20px;
+    color: black;
+}
+
+#auth{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.reg-form-container button[type="submit"] {
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 6px 0;
+}
+
+footer {
+    background-color: #bccbfe;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    flex-basis: 30%;
+    font-size: 24px;
+}
+
+.footer-right {
+    text-align: right;
+    flex-basis: 70%;
+}
+
+.footer-right a,
+.footer-right address {
+    display: block;
+    margin-bottom: 5px;
+    color: inherit;
+    font-size: 24px;
+}
